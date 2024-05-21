@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* */
+    margin: 0;
+  }
+  
+  .titlehp {
+    font-size: 36px;
+    color: #5b9ae1;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+  
+  .btnhp {
+    background-color: #5994d6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnhp:hover {
+    background-color: #2c73b1;
+  }
